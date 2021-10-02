@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "My first bot",
+  "version": "1.0",
+
+  "description": "My first bot created by 546pvp",
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.venge.io/*"],
+      "js": ["vengeio-hacks.js"]
+    }
+  ]
+
+}
