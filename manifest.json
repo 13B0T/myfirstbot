@@ -7,7 +7,7 @@
   "description": "My first bot created by 546pvp",
 
   "icons": {
-    "48": "icon.png"
+     "icon.png"
   },
 
   "content_scripts": [
