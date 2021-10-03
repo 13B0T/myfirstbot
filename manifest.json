@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.google.com/*"],
+      "matches": ["*://*venge.io*"],
       "js": ["vengeio-hacks.js"]
     }
   ]
